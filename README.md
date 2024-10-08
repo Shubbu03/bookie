@@ -65,6 +65,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-Shubham Joshi - [GitHub](https://github.com/Shubbu03)
+Shubham - [GitHub](https://github.com/Shubbu03)
 
-Project Link: [https://github.com/Shubbu03/bookie](https://github.com/Shubbu03/bookie)
