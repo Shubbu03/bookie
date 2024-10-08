@@ -35,7 +35,7 @@ function Modal({
   const addBookmark = async (e) => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/user/add-bookmark",
+        "https://bookie-backend-mteg.onrender.com/user/add-bookmark",
         newBookmark,
         {
           headers: {
@@ -64,7 +64,7 @@ function Modal({
   const editOneBookmark = async () => {
     try {
       const response = await axios.put(
-        "http://localhost:3000/user/edit-bookmark",
+        "https://bookie-backend-mteg.onrender.com/user/edit-bookmark",
         {
           id: bookmarkId,
           title: editedBookmark.title,

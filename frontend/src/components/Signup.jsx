@@ -24,7 +24,7 @@ function Signup() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:3000/user/signup",
+        "https://bookie-backend-mteg.onrender.com/user/signup",
         userValues
       );
 

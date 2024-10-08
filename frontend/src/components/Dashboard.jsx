@@ -37,7 +37,7 @@ function Dashboard() {
   const viewAllBookmarks = async (e) => {
     try {
       const response = await axios.get(
-        "http://localhost:3000/user/view-bookmark",
+        "https://bookie-backend-mteg.onrender.com/user/view-bookmark",
         {
           headers: {
             "Content-Type": "application/json",
@@ -62,7 +62,7 @@ function Dashboard() {
     try {
       const response = await axios({
         method: "delete",
-        url: "http://localhost:3000/user/delete-bookmark",
+        url: "https://bookie-backend-mteg.onrender.com/user/delete-bookmark",
         headers: {
           token: `${token}`,
         },
@@ -84,7 +84,7 @@ function Dashboard() {
   const deleteAllBookmarks = async () => {
     try {
       const response = await axios.delete(
-        "http://localhost:3000/user/delete-all-bookmark",
+        "https://bookie-backend-mteg.onrender.com/user/delete-all-bookmark",
         {
           headers: {
             "Content-Type": "application/json",
@@ -104,7 +104,7 @@ function Dashboard() {
   const addToFavourite = async (bookmarkId) => {
     try {
       const response = await axios.put(
-        "http://localhost:3000/user/toggle-fav",
+        "https://bookie-backend-mteg.onrender.com/user/toggle-fav",
         {
           bookmarkId: bookmarkId,
         },
